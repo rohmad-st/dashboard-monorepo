@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "go run main.go",
+    "build": "echo 'Add build script here'",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'"
+  },
+  "dependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/models": "*"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/models": "*"
+  },
+  "peerDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/models": "*"
+  },
+  "optionalDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/models": "*"
+  }
+}

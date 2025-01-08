@@ -1,0 +1,31 @@
+{
+  "name": "@repo/theme",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./AppTheme": "./src/AppTheme.tsx",
+    "./ColorModeIconDropdown": "./src/ColorModeIconDropdown.tsx",
+    "./ColorModeSelect": "./src/ColorModeSelect.tsx",
+    "./themePrimitives": "./src/themePrimitives.ts"
+  },
+  "dependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@repo/ui": "*"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@repo/ui": "*"
+  },
+  "peerDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@repo/ui": "*"
+  },
+  "optionalDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@repo/ui": "*"
+  }
+}
