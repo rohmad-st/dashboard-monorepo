@@ -7,7 +7,7 @@ This repository is structured as a monorepo using **Turborepo** to manage both t
 The repository contains the following apps and packages:
 
 - **apps/frontend**: A Next.js application for the client-facing frontend, utilizing React and Material-UI.
-- **apps/backend**: An Golang server application that provides RESTful APIs and interacts with Firebase for authentication.
+- **apps/backend**: A Go server application that provides RESTful APIs and interacts with Firebase for authentication.
 - **packages/ui**: A library of reusable UI components built with Material-UI and styled with custom themes, used in the frontend apps.
 - **packages/theme**: A library of reusable custom themes for Material UI, used in the frontend apps.
 - **packages/models**: Shared TypeScript interfaces and types used across the apps for consistency.
